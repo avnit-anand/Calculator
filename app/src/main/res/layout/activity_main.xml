@@ -16,13 +16,14 @@
         android:layout_height="150dp"
         app:srcCompat="@drawable/logo" />
 
+
     <EditText
         android:id="@+id/etFirstNumber"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/enter_first_number"
-        android:inputType="numberSigned"
+        android:inputType="numberDecimal"
         android:paddingLeft="30dp"
         android:textColor="@color/black"
         android:textStyle="bold" />
@@ -33,7 +34,7 @@
         android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/enter_second_number"
-        android:inputType="numberSigned"
+        android:inputType="numberDecimal"
         android:paddingStart="30dp"
         android:textStyle="bold"
         />
