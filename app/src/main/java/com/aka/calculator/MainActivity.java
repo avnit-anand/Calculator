@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int firstNumber, secondNumber,result;
                 firstNumber = Integer.parseInt(FirstNumber.getText().toString());
-                secondNumber = Integer.parseInt(FirstNumber.getText().toString());
+                secondNumber = Integer.parseInt(SecondNumber.getText().toString());
 
                 result = firstNumber / secondNumber;
 
