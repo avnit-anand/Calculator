@@ -34,11 +34,10 @@ public class MainActivity extends AppCompatActivity {
         Add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int firstNumber, secondNumber, result;
+                double firstNumber, secondNumber, result;
 
-                firstNumber = Integer.parseInt(FirstNumber.getText().toString());
-                secondNumber = Integer.parseInt(SecondNumber.getText().toString());
-
+                firstNumber = Double.parseDouble(FirstNumber.getText().toString());
+                secondNumber = Double.parseDouble(SecondNumber.getText().toString());
                 result =firstNumber + secondNumber;
                 Result.setText("Ans is : "+result);
             }
@@ -47,9 +46,10 @@ public class MainActivity extends AppCompatActivity {
         Subtract.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int firstNumber, secondNumber, result;
-                firstNumber = Integer.parseInt(FirstNumber.getText().toString());
-                secondNumber = Integer.parseInt(SecondNumber.getText().toString());
+                double firstNumber, secondNumber, result;
+
+                firstNumber = Double.parseDouble(FirstNumber.getText().toString());
+                secondNumber = Double.parseDouble(SecondNumber.getText().toString());
 
                 result = firstNumber - secondNumber;
 
@@ -60,10 +60,10 @@ public class MainActivity extends AppCompatActivity {
         Multiply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int firstNumber, secondNumber, result;
+                double firstNumber, secondNumber, result;
 
-                firstNumber = Integer.parseInt(FirstNumber.getText().toString());
-                secondNumber = Integer.parseInt(SecondNumber.getText().toString());
+                firstNumber = Double.parseDouble(FirstNumber.getText().toString());
+                secondNumber = Double.parseDouble(SecondNumber.getText().toString());
 
                 result = firstNumber * secondNumber;
 
@@ -74,9 +74,10 @@ public class MainActivity extends AppCompatActivity {
         Division.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int firstNumber, secondNumber,result;
-                firstNumber = Integer.parseInt(FirstNumber.getText().toString());
-                secondNumber = Integer.parseInt(SecondNumber.getText().toString());
+                double firstNumber, secondNumber, result;
+
+                firstNumber = Double.parseDouble(FirstNumber.getText().toString());
+                secondNumber = Double.parseDouble(SecondNumber.getText().toString());
 
                 result = firstNumber / secondNumber;
 
